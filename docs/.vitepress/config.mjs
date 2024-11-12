@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'list', link: '/list/index' }
     ],
 
     sidebar: [
@@ -20,6 +20,7 @@ export default defineConfig({
         ]
       }
     ],
+    base: '/cloud-list/',
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
